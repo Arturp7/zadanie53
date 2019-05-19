@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class LineCompare {
 
-    void compareLines (int length1, int length2){
+    void compareLines (double length1, double length2){
         if (length1 > length2 ){
             System.out.println("Odcinek line1  Jest dłuższy i jego długość wynosi " + length1);
         }else {
